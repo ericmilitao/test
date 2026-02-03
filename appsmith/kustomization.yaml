@@ -5,7 +5,7 @@ patches:
 - target:
     kind: Service
     name: appsmith
-    namespace: appsmith
+    namespace: bi
   patch: |-
     - op: add
       path: /metadata/labels/custom.teleport.kubernetes-discovery
